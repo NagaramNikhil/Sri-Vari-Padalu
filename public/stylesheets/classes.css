@@ -1,0 +1,58 @@
+#classes {
+    padding: 20px;
+    text-align: center;
+  }
+  
+.class-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+.class {
+    background-color: #f9f9f900;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+.class h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+.class p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+.class ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.class ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .donate1 {
+    background-color: brown; 
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 5px;
+    max-width: 750px;
+    
+}
+
+.donate1:hover {
+    background-color: #d4004c; 
+}
